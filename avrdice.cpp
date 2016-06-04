@@ -188,9 +188,9 @@ int main() {
             lcd.print((char)p[i]);
         }
         // Refresh the LED output
-	    for (i = sizeof(p) - 1; i >= (sizeof(p) - 8); i--) {
-			LEDsend(LEDtable[p[i]-0x30]);
-		}
+        for (i = sizeof(p) - 1; i >= (sizeof(p) - 8); i--) {
+            LEDsend(LEDtable[p[i]-0x30]);
+        }
         // Wait for one second
         delay(1000);
     }
