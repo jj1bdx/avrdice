@@ -2,6 +2,10 @@
 
 Arduino Uno R3 C++ code showing random dice number sequence
 
+[日本語での説明はこちらのPDFをご参照ください](https://github.com/jj1bdx/avrdice/blob/master/mft2016-doc-ja/avrdice-mtf2016.pdf)
+
+## Technical details
+
 * Each digit contains values of 1 to 6
 * Hardware random number generation with avrhwrng 
 * Use Adafruit RGB LCD connected through I2C
